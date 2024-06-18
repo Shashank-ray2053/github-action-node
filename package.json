@@ -1,0 +1,28 @@
+{
+  "name": "github-action-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/app.test.js",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashank-ray2053/github-action-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashank-ray2053/github-action-node/issues"
+  },
+  "homepage": "https://github.com/Shashank-ray2053/github-action-node#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
